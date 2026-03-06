@@ -1,5 +1,4 @@
 import path from 'path'
-import fs from 'fs'
 
 // 
 
@@ -9,7 +8,7 @@ import { google } from "googleapis";
 // 
 
 
-const credential = path.join(process.cwd(), 'credential.json')
+const credential = path.join(process.cwd(), 'data.json')
 
 
 export async function readSheet () {
