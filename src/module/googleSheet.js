@@ -8,7 +8,7 @@ import { google } from "googleapis";
 // 
 
 
-const credential = path.join(process.cwd(), 'credentioal.json')
+const credential = path.join(process.cwd(), 'credential.json')
 
 
 export async function readSheet () {
