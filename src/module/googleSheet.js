@@ -1,11 +1,9 @@
 import path from 'path'
 
+
 // 
 
 import { google } from "googleapis";
-
-
-// 
 
 
 const credential = path.join(process.cwd(), 'credential.json')
